@@ -18,22 +18,24 @@
     width: 100%;
     height: 3rem;
     position: fixed;
-    top: 0%;
+    top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 100;
+    z-index: 1;
     background-image: linear-gradient(to bottom, black, rgb(85, 8, 109));
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
 .nav {
-    height: 3rem;
-    display: flex;
+    position: fixed;
+    display: grid;
     justify-content: center;
     align-items: center;
     margin: 0%;
     text-align: center;
+    width: 100%;
+    height: 3rem;
+
   }
 
 .navmenu{
@@ -41,9 +43,10 @@
     top: 0;
     left: -100%;
     width: 100%;
-    height: 105vh;
+    height: 110vh;
     padding: 3rem;
-    align-items: center;
+    display: grid;
+    place-items: center;
     background-image: linear-gradient(to top, black, blueviolet);
     transition: 0.5s;
 }
@@ -58,8 +61,8 @@
 
 .navclose {
     position: absolute;
-    bottom: 1rem;
-    left: 48%;
+    bottom: 15%;
+    place-items: center;
     font-size: 2rem;
     color: white;
     cursor: pointer;
@@ -76,7 +79,6 @@
     background-image: linear-gradient(to top, black, rgb(85, 8, 109));
     font-weight: 500;
     transition: 0.3s;
-    letter-spacing: 5px;
     text-decoration: none;
     border-radius: 25px;
     color: ghostwhite;
@@ -151,7 +153,7 @@
 
 .midescripcion{
     background-image: linear-gradient( to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
-    border-radius: 25%;
+    border-radius: 25px;
     padding: 2rem;
     line-height: 1.5;
     margin: 2rem;
@@ -496,6 +498,10 @@ a:active {
         display: flex;
         place-content: center;
         font-size: 2rem;
+      }
+
+      .navlink{
+        letter-spacing: 5px;
       }
 
       .navlink:hover {
