@@ -5,6 +5,7 @@
     text-align: center;
     font-family:'Manrope', sans-serif;
     scroll-behavior: smooth;
+    color: ghostwhite;
 }
 
 *,
@@ -64,7 +65,6 @@
     bottom: 15%;
     place-items: center;
     font-size: 2rem;
-    color: white;
     cursor: pointer;
 }
   
@@ -81,7 +81,6 @@
     transition: 0.3s;
     text-decoration: none;
     border-radius: 25px;
-    color: ghostwhite;
     font-size: 1rem;
     padding: 10px;
 
@@ -93,7 +92,6 @@
 }
   
 .navtoggle {
-    color: white;
     font-size: 1.5rem;
     cursor: pointer;
     padding-top: 1.5rem;
@@ -107,18 +105,17 @@
   
 /* ----------------------- Menú activo ----------------- */
 .active {
-    color: ghostwhite;
     background-image: linear-gradient(to top, black, green);
 }
 
 .cuerpo{
-    background: url(img/fondo2.jpg);
+    background-image: linear-gradient(to right, rgb(97, 91, 100), rgb(138, 80, 192), rgb(98, 92, 100));
 }
 
 .inicio{
     margin: 0;
     height: 100vh;
-    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(img/fondo1.jpg);
+    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(img/fondoinicio.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -138,7 +135,6 @@
 }
 
 .tituloinicio{
-    color: ghostwhite;
     font-weight:bolder;
     font-size: 2rem;
     text-shadow: 2px 2px 4px blueviolet;
@@ -147,7 +143,6 @@
 .subtituloinicio{
     font-weight: bolder;
     font-size: 1.3rem;
-    color: ghostwhite;
     text-shadow: 2px 2px 4px blueviolet;
 }
 
@@ -201,7 +196,6 @@
 }
 
 .manejo{
-    color: ghostwhite;
     border-radius: 20px;
     letter-spacing: 5px;
     padding: 5px 40px 5px 40px;
@@ -254,7 +248,6 @@
 }
 
 .institucion, .texto1, .texto2, .periodo, .fecha{
-    color: white;
     font-size: bolder;
 }
 
@@ -306,7 +299,6 @@ textarea {
     cursor: pointer;
     display: inline-block;
     background-color: blueviolet;
-    color: ghostwhite;
     padding: 1rem 2rem;
     font-weight: bold;
     border-radius: 0.5rem;
@@ -365,11 +357,8 @@ hr.rounded {
     height: 100vh;
 }
 
-
-
 .footer {
     background-image: linear-gradient(to top, black, rgb(85, 8, 109));
-    color: ghostwhite;
     text-align: center;
     bottom: 0%;
   }
@@ -378,11 +367,14 @@ hr.rounded {
     padding: 2rem;
     text-align: center;
     font-size: 3rem;
-    color: ghostwhite;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.descripcion {
+    margin: 1rem;
 }
 
 .iconosredes{
@@ -398,7 +390,6 @@ a:visited {
 }
   
 a:hover {
-    color: ghostwhite;
     text-shadow: 4px 4px 8px blueviolet;
 
 }
