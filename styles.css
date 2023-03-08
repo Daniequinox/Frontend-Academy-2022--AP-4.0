@@ -152,6 +152,7 @@
     padding: 2rem;
     line-height: 1.5;
     margin: 2rem;
+    letter-spacing: 1px;
     
 }
 
@@ -167,7 +168,7 @@
 
 .datospersonales{
     margin-top: 0%;
-    padding: 1rem;
+    padding: 0,5rem;
     line-height: 1.5;
     margin-bottom: 3rem;
 }
@@ -175,7 +176,7 @@
 .datos{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
     border-radius: 5px;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     margin-top: 1rem;
     font-weight: bold;
 }
